@@ -1,0 +1,71 @@
+#intro{
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+.introImg{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    object-fit: contain;
+    height: 100vh;
+}
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introname{
+    color: yellow;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 200;
+    line-height: 1.5rem;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 1px;
+}
+.introBtn{
+    padding: 1rem 1.3rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0px 0px 1px gray;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    transition: transform 0.2s;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 3rem;
+}
+.introBtn:hover{
+    box-shadow: 0px 0px 5px gray;
+    transition-duration: 0.2s;
+    transform: translateY(-3px);
+}
+@media  screen and (max-width:840px) {
+    .introImg{
+        right: -60vw;
+        top: -28vw;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}

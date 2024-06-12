@@ -1,0 +1,12 @@
+.footer{
+    width: 100vw;
+    height: 2rem;
+    background: rgb(40, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: small;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 1px;
+}
