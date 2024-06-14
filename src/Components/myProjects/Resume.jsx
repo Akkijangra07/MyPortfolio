@@ -7,10 +7,10 @@ function Resume() {
   return (
     <>
       <section className='resume'>
-        <div class="image-container">
+        <div className="image-container">
           <img src={corporate} alt="Sample Image"/>
-          <div class="overlay">
-            <i class="fa-regular fa-user" id='userIcon'></i>
+          <div className="overlay">
+            <i className="fa-regular fa-user" id='userIcon'></i>
             <h1>Ankit</h1>
           </div>
         </div>
