@@ -6,6 +6,7 @@ import colorPicker from '/colorPicker.jpeg'
 import { Link } from 'react-scroll'
 import pwdGenerator from "/pwdGenerator.png"
 import quiz from '/quiz.jpg'
+import reactpwd from '/reactpwd.png'
 
 
 function Works() {
@@ -29,7 +30,7 @@ function Works() {
                 </div>
 
                 <div className="card" >
-                    <a href="" >
+                    <a href="https://akkijangra07.github.io/Rest-countries/" >
                     <img src={restCountries} className="workImg" alt="..." />
                      <div className="card-body">
                      
@@ -69,6 +70,17 @@ function Works() {
                      <h3 className="card-title">Quiz Project</h3>
                      <hr />
                      <p className="card-text">Develop a dynamic quiz application using JavaScript, featuring interactive multiple-choice questions.</p>
+                     </div>
+                    </a>
+                </div>
+                <div className="card" >
+                    <a href="https://akkijangra07.github.io/Quiz-Project/" >
+                    <img src={reactpwd} className="workImg" alt="..." />
+                     <div className="card-body">
+                     {/* <hr /> */}
+                     <h3 className="card-title">React Random Pwd Generator</h3>
+                     <hr />
+                     <p className="card-text">Develop a dynamic quiz application using ReactJs,featuring adjustable length,numbers and characters</p>
                      </div>
                     </a>
                 </div>

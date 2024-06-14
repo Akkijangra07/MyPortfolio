@@ -12,7 +12,7 @@ function Navbar() {
         
         <img src={logo} alt="" className='logo'/>
         <div className="desktopMenu">
-            <NavLink  to="/"  className='desktopMenuListItem'>Home</NavLink>
+            <NavLink  to="/MyPortfolio"  className='desktopMenuListItem'>Home</NavLink>
             <NavLink  to="/MyPortfolio/about" className='desktopMenuListItem'>About</NavLink>
             <NavLink  to="/MyPortfolio/works" className='desktopMenuListItem'>Portfolio</NavLink>
             <NavLink  to='/MyPortfolio/resume' className='desktopMenuListItem'>Resume</NavLink>
