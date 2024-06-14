@@ -74,7 +74,7 @@ function Works() {
                     </a>
                 </div>
                 <div className="card" >
-                    <a href="https://akkijangra07.github.io/Quiz-Project/" >
+                    <a href="https://akkijangra07.github.io/react-random-password-generator/" >
                     <img src={reactpwd} className="workImg" alt="..." />
                      <div className="card-body">
                      {/* <hr /> */}
