@@ -14,28 +14,28 @@ import Resume from './Components/myProjects/Resume.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/MyPortfolio/",
     element: <App/>,
     children:[
       {
-        path: "/",
+        path: "/MyPortfolio/",
         element: <Intro/>,
       },
       {
-        path: "/about",
+        path: "/MyPortfolio/about",
         element: <Skills/>,
       },
       ,
       {
-        path: "/works",
+        path: "/MyPortfolio/works",
         element: <Works/>,
       },
       {
-        path: '/resume',
+        path: '/MyPortfolio/resume',
         element: <Resume/>
       },
       {
-        path: "/contact",
+        path: "/MyPortfolio/contact",
         element: <Contact/>
       }
     ]
