@@ -13,9 +13,9 @@ function Navbar() {
         <img src={logo} alt="" className='logo'/>
         <div className="desktopMenu">
             <NavLink  to="/"  className='desktopMenuListItem'>Home</NavLink>
-            <NavLink  to="/about" className='desktopMenuListItem'>About</NavLink>
-            <NavLink  to="/works" className='desktopMenuListItem'>Portfolio</NavLink>
-            <NavLink  to='/resume' className='desktopMenuListItem'>Resume</NavLink>
+            <NavLink  to="/MyPortfolio/about" className='desktopMenuListItem'>About</NavLink>
+            <NavLink  to="/MyPortfolio/works" className='desktopMenuListItem'>Portfolio</NavLink>
+            <NavLink  to='/MyPortfolio/resume' className='desktopMenuListItem'>Resume</NavLink>
         </div>
         <Link to='/contact'><button className="desktopMenuBtn"><i className="fa-regular fa-message" style={{marginRight:"0.5rem"}}></i>Contact me</button></Link>
         <button className='mobMenu' onClick={()=>setShowMenu(!showMenu)}><i className="fa-solid fa-bars"></i></button>
