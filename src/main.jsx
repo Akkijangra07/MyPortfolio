@@ -10,7 +10,7 @@ import Intro from './Components/Intro/Intro.jsx';
 import Skills from './Components/Skills/Skills.jsx';
 import Works from './Components/Works/Works.jsx';
 import Contact from './Components/Contact/Contact.jsx';
-import Resume from './Components/myProjects/Resume.jsx';
+import Resume from './Components/Resume/Resume.jsx';
 
 const router = createBrowserRouter([
   {
