@@ -132,7 +132,7 @@ function Resume() {
             <br />
           </div>
         </div>
-        <a href={resume} download="Ankit's Resume"><button className='cv'>Download CV</button></a>
+        <a href={resume} download="Ankit's Resume" target='_blank'><button className='cv'>Download CV</button></a>
       </section>
     </>
   )

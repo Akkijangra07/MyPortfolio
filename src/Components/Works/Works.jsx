@@ -18,7 +18,7 @@ function Works() {
             <span className="workDesc">I take pride in paying attention to the smallest details and making sure that my work is pixel perfect. I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence.</span>
             <div className="workImgs">
                 <div className="card" >
-                    <a href=" https://akkijangra07.github.io/sgsschool.github.io/" >
+                    <a href=" https://akkijangra07.github.io/sgsschool.github.io/" target='_blank' >
                     <img src={school} className="workImg" alt="..." />
                      <div className="card-body">
                      
@@ -30,7 +30,7 @@ function Works() {
                 </div>
 
                 <div className="card" >
-                    <a href="https://akkijangra07.github.io/Rest-countries/" >
+                    <a href="https://akkijangra07.github.io/Rest-countries/" target='_blank'>
                     <img src={restCountries} className="workImg" alt="..." />
                      <div className="card-body">
                      
@@ -41,7 +41,7 @@ function Works() {
                     </a>
                 </div>
                 <div className="card" >
-                    <a href="https://akkijangra07.github.io/Color-Picker/" >
+                    <a href="https://akkijangra07.github.io/Color-Picker/" target='_blank'>
                     <img src={colorPicker} className="workImg" alt="..." />
                      <div className="card-body">
                      {/* <hr /> */}
@@ -52,7 +52,7 @@ function Works() {
                     </a>
                 </div>
                 <div className="card" >
-                    <a href="https://akkijangra07.github.io/Random-Password-Generator/" >
+                    <a href="https://akkijangra07.github.io/Random-Password-Generator/" target='_blank'>
                     <img src={pwdGenerator} className="workImg" alt="..." />
                      <div className="card-body">
                      {/* <hr /> */}
@@ -63,7 +63,7 @@ function Works() {
                     </a>
                 </div>
                 <div className="card" >
-                    <a href="https://akkijangra07.github.io/Quiz-Project/" >
+                    <a href="https://akkijangra07.github.io/Quiz-Project/" target='_blank'>
                     <img src={quiz} className="workImg" alt="..." />
                      <div className="card-body">
                      {/* <hr /> */}
@@ -74,7 +74,7 @@ function Works() {
                     </a>
                 </div>
                 <div className="card" >
-                    <a href="https://akkijangra07.github.io/react-random-password-generator/" >
+                    <a href="https://akkijangra07.github.io/react-random-password-generator/" target='_blank'>
                     <img src={reactpwd} className="workImg" alt="..." />
                      <div className="card-body">
                      {/* <hr /> */}
