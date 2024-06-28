@@ -1,0 +1,111 @@
+.section{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.upper{
+    background:linear-gradient(90deg,#00ffff,#ff00c3);
+    width: 100vw;
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 1rem;
+
+    
+}
+.canvaHeading{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.canvaDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-family: 'Poppins',sans-serif;
+    max-width: 45rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    
+}
+.canvaHeading2{
+    padding: 1.8rem 1.2rem;
+    background:linear-gradient(90deg,#00ffff,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box img{
+    width: 25rem;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    transition: 0.4s ease-in-out;
+
+}
+.imgContainer{
+    width: 100vw;
+    max-width: 65rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 25rem;
+    margin: 0 1rem;
+    border-radius: 0.3rem;
+}
+.box img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+.btn{
+    padding: 10px 20px;
+    background: none;
+    border-radius: 0.3rem;
+    border: 1px solid #3498db;
+    font-family: "Poppins",sans-serif;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background: linear-gradient(#007498,#00bca1);
+    transition-duration: 0.6s;
+
+    
+}
+.btn:hover{
+    background: linear-gradient(#00bca1,#007498);
+    transform: scale(1.02);
+}
+
+@media screen and (max-width:560px){
+    .imgContainer{
+        flex-wrap: wrap;
+    }
+    .btn{
+        font-size: 3vw;
+        padding: 2vw;
+    }
+    .box img{
+        width:80vw
+    }
+    .upper{
+        padding:  2vw;
+    }
+    .canvaHeading , .canvaHeading2{
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+    .canvaDesc{
+        font-size: 3vw;
+    }
+}

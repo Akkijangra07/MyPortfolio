@@ -7,6 +7,7 @@ import { Link } from 'react-scroll'
 import pwdGenerator from "/pwdGenerator.png"
 import quiz from '/quiz.jpg'
 import reactpwd from '/reactpwd.png'
+import Canva from './Canva'
 
 
 function Works() {
@@ -84,14 +85,9 @@ function Works() {
                      </div>
                     </a>
                 </div>
-                
-
-               
-                    
-
             </div>
-            
         </section>
+        <Canva/>
     </>
   )
 }
