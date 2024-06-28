@@ -14,12 +14,13 @@
     right: 0;
     object-fit: contain;
     height: 100vh;
+    
 }
 .introContent{
     height: 100vh;
     width: 100vw;
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -33,7 +34,7 @@
     color: yellow;
 }
 .introPara{
-    font-size: medium;
+    font-size:large;
     font-weight: 200;
     line-height: 1.5rem;
     font-family: 'Poppins',sans-serif;

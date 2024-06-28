@@ -3,6 +3,7 @@ import './intro.css'
 import {Link} from 'react-scroll'
 import me2 from '/me2.jpeg'
 import { NavLink } from 'react-router-dom'
+import gif from "/gif.gif"
 
 
 function Intro() {
