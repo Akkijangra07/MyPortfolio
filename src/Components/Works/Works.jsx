@@ -8,6 +8,7 @@ import pwdGenerator from "/pwdGenerator.png"
 import quiz from '/quiz.jpg'
 import reactpwd from '/reactpwd.png'
 import Canva from './Canva'
+import todo from "/todo.png"
 
 
 function Works() {
@@ -82,6 +83,17 @@ function Works() {
                      <h3 className="card-title">React Random Pwd Generator</h3>
                      <hr />
                      <p className="card-text">Develop a dynamic quiz application using ReactJs,featuring adjustable length,numbers and characters</p>
+                     </div>
+                    </a>
+                </div>
+                <div className="card" >
+                    <a href="https://akkijangra07.github.io/To-Do-App/" target='_blank'>
+                    <img src={todo} className="workImg" alt="..." />
+                     <div className="card-body">
+                     
+                     <h3 className="card-title">To-Do App</h3>
+                     <hr />
+                     <p className="card-text">Our Simple Todo App, built with ReactJS, offers a seamless way to manage your tasks. Designed with a minimalistic interface, this app allows users to easily add and delete tasks</p>
                      </div>
                     </a>
                 </div>
